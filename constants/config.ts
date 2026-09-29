@@ -7,6 +7,9 @@ export const AppConfig = {
   /** 1日あたりの最大投稿数（DBトリガーと一致させる） */
   maxPostsPerDay: 2,
 
+  /** ホームに表示する投稿の有効時間 */
+  feedWindowHours: 24,
+
   /** 通知から何分以内を ON TIME とするか（Phase 2 で使用） */
   onTimeThresholdMinutes: 60,
 
@@ -26,18 +29,20 @@ export const AppConfig = {
     bioMaxLength: 160,
   },
 
-  /** 問い合わせ・審査用（公開後に実在アドレスへ差し替え） */
-  supportEmail: 'support@bereach.app',
+  /** 問い合わせ・審査用 */
+  supportEmail: 'hayadrenbhg88@keio.jp',
+  supportUrl: 'https://hayadrenbhg.github.io/-bareal/support.html',
+  issuesUrl: 'https://github.com/hayadrenbhg/-bareal/issues',
 
   /**
-   * App Store 提出用の公開 URL。
-   * 独自ドメイン公開後に差し替える。当面はアプリ内 /legal を正本とする。
+   * App Store 提出用の公開 URL（GitHub Pages）。
+   * 独自ドメイン公開後に差し替える。
    */
   legal: {
     privacyPath: '/legal/privacy',
     termsPath: '/legal/terms',
-    privacyUrl: 'https://bereach.app/legal/privacy',
-    termsUrl: 'https://bereach.app/legal/terms',
+    privacyUrl: 'https://hayadrenbhg.github.io/-bareal/legal/privacy.html',
+    termsUrl: 'https://hayadrenbhg.github.io/-bareal/legal/terms.html',
   },
 
   /** 投稿 */
