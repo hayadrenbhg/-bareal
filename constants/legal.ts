@@ -5,7 +5,7 @@ export type LegalSection = {
   body: string;
 };
 
-export const LEGAL_UPDATED_AT = '2026年9月13日';
+export const LEGAL_UPDATED_AT = '2026年9月30日';
 
 export const PRIVACY_POLICY: {
   title: string;
@@ -13,11 +13,11 @@ export const PRIVACY_POLICY: {
   sections: LegalSection[];
 } = {
   title: 'プライバシーポリシー',
-  intro: `Be Reach（以下「本アプリ」）は、ユーザーのプライバシーを尊重します。本ポリシーは、本アプリがどのような情報を取得し、どのように利用・保管するかを説明します。最終更新日: ${LEGAL_UPDATED_AT}`,
+  intro: `Forme（以下「本アプリ」）は、ユーザーのプライバシーを尊重します。本ポリシーは、本アプリがどのような情報を取得し、どのように利用・保管するかを説明します。最終更新日: ${LEGAL_UPDATED_AT}`,
   sections: [
     {
       heading: '1. 運営者',
-      body: `本アプリの運営者は Be Reach です。お問い合わせは ${AppConfig.supportEmail} までお願いします。`,
+      body: `本アプリの運営者は hayase nakamura です。お問い合わせは ${AppConfig.supportEmail} までお願いします。`,
     },
     {
       heading: '2. 取得する情報',
@@ -64,7 +64,7 @@ export const TERMS_OF_SERVICE: {
   sections: LegalSection[];
 } = {
   title: '利用規約',
-  intro: `この利用規約（以下「本規約」）は、Be Reach（以下「本アプリ」）の利用条件を定めるものです。本アプリを利用することで、本規約に同意したものとみなします。最終更新日: ${LEGAL_UPDATED_AT}`,
+  intro: `この利用規約（以下「本規約」）は、Forme（以下「本アプリ」）の利用条件を定めるものです。本アプリを利用することで、本規約に同意したものとみなします。最終更新日: ${LEGAL_UPDATED_AT}`,
   sections: [
     {
       heading: '1. サービス内容',
